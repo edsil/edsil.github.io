@@ -6,6 +6,7 @@ window.onload = function () {
     btnConfirm = document.getElementById("confirm");
     windowWidth = window.innerWidth;
     addEvents();
+loadCardsData();
 };
 
 //#region Global Variables
