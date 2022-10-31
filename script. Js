@@ -47,7 +47,6 @@ function displayTimed(keys) {
         i++;
     }
 }
-cards = [] ;
 
 function clearCardsContainer() {
     while (contentBox.firstChild) {
