@@ -1,41 +1,45 @@
 body {
     margin: 0;
     padding: 0;
+    background: rgb(49, 49, 49);
+
 }
 
 header {
     display: flex;
-    background: #4448;
+    background: rgb(7, 24, 10);
     padding: 3px;
     top: 0;
     left: 0;
     position: fixed;
     width: 100%;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     gap: auto;
     flex-wrap: wrap;
-    height: 25px;
-}
-
-.searchBox {
-    width: 200px;
-    font-size: 17px;
-    height: 21px;
-    margin: 1px 5px;
-    border: 4px;
+    height: 30px;
 }
 
 .btn {
-    width: 80px;
-    font-size: 17px;
-    height: 21px;
-    margin: 1px 5px;
-    border: 4px;
+    height: 20px;
+    width: 30px;
+    background: rgb(7, 24, 10);
+    padding: 0;
+    margin: 0px;
+    border: 0px;
+}
+
+.humbImg {
+    height: 20px;
+    width: 25px;
+    top: 0;
+    margin: 0px;
+    border: 0px;
 }
 
 .contentBox {
     margin: 33px 2px 0 2px;
+    background: rgb(7, 24, 10);
     border: 0;
     display: flex;
     flex-wrap: wrap;
