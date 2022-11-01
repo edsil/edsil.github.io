@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     background: rgb(49, 49, 49);
-
 }
 
 header {
@@ -16,7 +15,6 @@ header {
     justify-content: left;
     align-items: center;
     gap: auto;
-    flex-wrap: wrap;
     height: 30px;
 }
 
@@ -39,22 +37,21 @@ header {
 
 .contentBox {
     margin: 33px 2px 0 2px;
-    background: rgb(7, 24, 10);
+    background: rgb(49, 49, 49);
     border: 0;
     display: flex;
-    flex-wrap: wrap;
     justify-content:space-around;
     gap: auto;
 }
 
-.card, .cardSelected {
+.card {
     display: grid;
     border: 1px solid black;
-    border-radius: 15px;
-    width: 144px;
+    border-radius: 1px;
+    width: 20%;
     grid-template-columns: 1% 14% 70% 14% 1%;
-    height: 250px;
-    grid-template-rows: 22% 47% 9% 9% 9% 4%;
+    height: auto;
+    grid-template-rows: 10% 7% 29% 9% 9% 4%;
     transition: 0.3s;
     margin: 7px;
 }
@@ -71,18 +68,6 @@ header {
     color: rgb(5, 18, 30);
 }
 
-.cardSelected {
-    transform: rotate(0.0turn) scale(1.04);
-    background-color: rgb(63, 189, 220);
-    color: rgb(0,0,0);
-}
-
-.cardSelected:hover {
-    z-index: 1;
-    transform: rotate(0.0turn) scale(1.02);
-    background-color: rgb(80, 191, 210);
-    color: rgb(5, 18, 30);
-}
 
 .cardName, .cardPic, .cardHP,
 .cardATK, .cardDEF {
@@ -107,12 +92,12 @@ header {
     width: 100%;
 }
 
-.cardHP, .cardATK, .cardDEF {
+.cardCat, .cardDesc, .cardDEF {
     font-size: small; 
 }
 
-.cardHP { grid-row: 3;}
+.cardCat { grid-row: 3;}
 
-.cardATK { grid-row: 4;}
+.cardDesc { grid-row: 4;}
 
 .cardDEF { grid-row: 5;}

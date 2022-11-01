@@ -6,11 +6,12 @@ var cardsContainer;
 var windowWidth;
 
 window.onload = function () {
-    displayCards();
     cardsContainer = document.getElementById("contentBox");
     windowWidth = window.innerWidth;
     document.title = "EdSil Experiments";
     window.onresize = updateWindowWidth;
+    displayCards();
+
 };
 
 function updateWindowWidth() {
@@ -19,7 +20,7 @@ function updateWindowWidth() {
 
 function displayCards() {
     for (const card in cards) {
-        addCard(card);
+        addCard(cards[card]);
     }
 }
 
