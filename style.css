@@ -48,10 +48,10 @@ header {
     display: grid;
     border: 1px solid black;
     border-radius: 1px;
-    width: 20%;
-    grid-template-columns: 1% 14% 70% 14% 1%;
+    width: 32%;
+    grid-template-columns: 2% 32% 32% 32% 2%;
     height: auto;
-    grid-template-rows: 10% 7% 29% 9% 9% 4%;
+    grid-template-rows: 10% 40% 10% 30% 10%;
     transition: 0.3s;
     margin: 7px;
 }
@@ -69,10 +69,10 @@ header {
 }
 
 
-.cardName, .cardPic, .cardHP,
-.cardATK, .cardDEF {
+.cardName, .cardPic, .carCat,
+.cardDesc {
     justify-self: center;
-    grid-column: 1 / 6;
+    grid-column: 2 / 4;
     flex-shrink: 0;
     flex-grow: 0;
 }
@@ -87,17 +87,15 @@ header {
 }
 
 .cardPic {
-    grid-column: 2 / 5;
+    grid-column: 2 / 4;
     grid-row: 2;
     width: 100%;
 }
 
-.cardCat, .cardDesc, .cardDEF {
+.cardCat, .cardDesc {
     font-size: small; 
 }
 
 .cardCat { grid-row: 3;}
 
 .cardDesc { grid-row: 4;}
-
-.cardDEF { grid-row: 5;}
