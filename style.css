@@ -43,21 +43,25 @@ header {
     justify-content:space-around;
     gap: auto;
 }
+.contentBox:any-link {
+    text-decoration: none;
+}
 
 .card {
     display: grid;
-    border: 1px solid black;
+    border: 5px solid rgb(12, 14, 135);
     border-radius: 1px;
-    width: 32%;
+    width: 45%;
+    height: 95%;
     grid-template-columns: 2% 32% 32% 32% 2%;
-    height: auto;
-    grid-template-rows: 10% 40% 10% 30% 10%;
+    grid-template-rows: 10% 40% 10% 40%;
     transition: 0.3s;
     margin: 7px;
 }
 
 .card {
     background-color: rgb(182, 182, 182);
+    border: 5px solid rgb(40, 42, 182);
     color: rgb(20,20,20, 0.8);
 }
 
@@ -68,23 +72,21 @@ header {
     color: rgb(5, 18, 30);
 }
 
-
 .cardName, .cardPic, .cardCat,
 .cardDesc {
-    justify-self: center;
     grid-column: 2 / 5;
     flex-shrink: 0;
     flex-grow: 0;
-    text-decoration: none;
-    align-self: center;
 }
 
 .cardName {
     grid-row: 1;
-    text-align: center;
-    font-size: auto;
+    justify-self: center;
+    font-size: x-large;
     font-weight: bolder;
     color: rgb(6, 74, 134);
+    align-self: center;
+
 }
 
 .cardPic {
@@ -96,7 +98,8 @@ header {
 
 .cardCat, .cardDesc {
     text-align: left;
-    font-size: small; 
+    font-size: medium;
+    align-self: flex-start;
 }
 
 .cardCat { grid-row: 3;}
