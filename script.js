@@ -2,10 +2,10 @@
 
 const cards = [{ name: "Exploder", category: "Game", description: "A game where you plant bombs, explode things and collect coins.", link: "./gameexploder/", image: "./img/gameexploder.jpg" },
 { name: "Pendulum", category: "Simulation", description: "A physics based simulation of a pendulum with multiple arms.", link: "./multiPendulum/", image: "./img/multiPendulum.jpg" },
-{ name: "Ants", category: "Simulation", description: "Ants moving around and leaving a colorful trail wherever they go.", link: "./ants/", image: "./img/edsil_logo.png" },
-{ name: "Rubkis", category: "Game / Simulation", description: "A traditional Rubik's Cube for you to scramble and 'magically' rewind.", link: "./rubiks/", image: "./img/edsil_logo.png" },
-{ name: "12 Diamonds", category: "Game", description: "12 Diamonds, one is false. Answer 3 questions and I will guess the false one!", link: "./diamons/", image: "./img/edsil_logo.png" },
-{ name: "Mandelbrot Set", category: "Maths / Graphics", description: "Zoom in to discover intricate and beatiful patterns in this famous set.", link: "./fractals/", image: "./img/edsil_logo.png" }];
+{ name: "Ants", category: "Simulation", description: "Ants moving around and leaving a colorful trail wherever they go.", link: "./ants/", image: "./img/ants.jpg" },
+{ name: "Rubkis", category: "Game / Simulation", description: "A traditional Rubik's Cube for you to scramble and 'magically' rewind.", link: "./rubiks/", image: "./img/rubiks.jpg" },
+{ name: "12 Diamonds", category: "Game", description: "12 Diamonds, one is false. Answer 3 questions and I will guess the false one!", link: "./diamonds/", image: "./img/diamonds.jpg" },
+{ name: "Mandelbrot Set", category: "Maths / Graphics", description: "Zoom in to discover intricate and beatiful patterns in this famous set.", link: "./fractals/", image: "./img/mandel.jpg" }];
 
 var cardsContainer;
 var windowWidth;
